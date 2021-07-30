@@ -23,11 +23,15 @@ Based on the analysis of Bitcoin, Ethereum, and Ripple, do movements in the pric
 ### Datasets to be Used: 
 
 Bitcoin price data from 2019-07-01 to 2021-08-01 from Coinbase API.
+
 Ethereum price data from 2019-07-01 to 2021-08-01 from Coinbase API.
+
 Ripple price data from 2019-07-01 to 2021-08-01 from Coinbase API.
 
 Bitcoin tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
+
 Ethereum tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
+
 Ripple tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
 
 ---
