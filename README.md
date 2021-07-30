@@ -1,4 +1,4 @@
-# Coin_The_Tweet
+# Coin The Tweet
 
 Project 1 for Rice University's FinTech Boot Camp
 
