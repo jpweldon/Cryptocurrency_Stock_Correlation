@@ -8,7 +8,11 @@ Project 1 for Rice University's FinTech Boot Camp
 
 ### Project Description:
 
-The purpose of this project is to determine correlations between tweet frequency of key cryptocurrencies and the price of the cryptocurrencies to determine if there is a predictive behavior between the two. We will analyze data of the top three cryptocurrencies traded 	based on market volume; these currently are Bitcoin, Ethereum, and Ripple. The time frame of our analysis will be two years from July of 2019 through July of 2021. We will source this data  from Twitter and Coinbase using API’s.
+The purpose of this project is to determine correlations between tweet frequency of key cryptocurrencies and the price of the cryptocurrencies to determine if there is a predictive behavior between the two. We will analyze data of three top cryptocurrencies traded based on market popularity; these are Bitcoin, Ethereum, and Litecoin. The time frame of our analysis will be two years from July of 2019 through July of 2021. We will source this data  from Twitter and Coinbase using APIs.
+
+### Project Objective:
+
+We find the cryptocurrency market fascinating and want to analyze how social engagement for an asset on a social media platform like Twitter can affect or be affected by the assets' price action.
 
 ### Research Questions:
 
@@ -16,9 +20,9 @@ Do price movements of Bitcoin correspond with movements in the quantity of tweet
 
 Do price movements of Ethereum correspond with movements in the quantity of tweets referencing Ethereum? If so, do movements in the price of Ethereum  pre-date, align, or post-date movements in the quantity of tweets referencing the cryptocurrency?
 
-Do price movements of Ripple correspond with movements in the quantity of tweets referencing Ripple? If so, do movements in the price of Ripple  pre-date, align, or post-date movements in the quantity of tweets referencing the cryptocurrency?
+Do price movements of Litecoin correspond with movements in the quantity of tweets referencing Litecoin? If so, do movements in the price of Litecoin  pre-date, align, or post-date movements in the quantity of tweets referencing the cryptocurrency?
 
-Based on the analysis of Bitcoin, Ethereum, and Ripple, do movements in the price of the various cryptocurrencies in the market and their respective movements in the quantity of tweets referencing the cryptocurrencies correlate with each other?
+Based on the analysis of Bitcoin, Ethereum, and Litecoin, do movements in the price of the various cryptocurrencies in the market and their respective movements in the quantity of tweets referencing the cryptocurrencies correlate with each other?
 
 ### Datasets to be Used: 
 
@@ -26,13 +30,13 @@ Bitcoin price data from 2019-07-01 to 2021-08-01 from Coinbase API.
 
 Ethereum price data from 2019-07-01 to 2021-08-01 from Coinbase API.
 
-Ripple price data from 2019-07-01 to 2021-08-01 from Coinbase API.
+Litecoin price data from 2019-07-01 to 2021-08-01 from Coinbase API.
 
 Bitcoin tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
 
 Ethereum tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
 
-Ripple tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
+Litecoin tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
 
 ---
 
@@ -79,15 +83,19 @@ Examine the statistics, charts, and analysis contained within the file. We have 
 
 Brienne DeMott
 
+Email: brienne_demott@yahoo.com
+
 John P Weldon
 
 Email: johnpweldon01@gmail.com
 
-[LinkedIn:] (www.linkedin.com/in/john-weldon-333b0695)
-
 Elliot Lozano
 
+Email: elliotlozano95@gmail.com
+
 Jose Medina
+
+Email: medina.jose003@gmail.com
 
 ---
 
