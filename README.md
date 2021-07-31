@@ -73,9 +73,17 @@ Clone the Coin_The_Tweet repository from GitHub:
 
 'git clone https://github.com/jpweldon/Coin_The_Tweet.git'
 
-Run the coin_the_tweet.ipynb program.
+Open the Resources folder and data_cleanup.ipynb file within.
 
-Examine the statistics, charts, and analysis contained within the file. We have included analysis outlining the significance.
+Examine the summary data, statistics, and analysis contained within the file.
+
+Open the Data_Exploration folder and data_exploration.ipynb file within.
+
+Examine the statistics, charts, and analysis contained within the file.
+
+Open the Data_Analysis folder and data_analysis.ipynb file within.
+
+Examine the summary data, statistics, charts, and analysis contained within the file. We have included analysis outlining the significance.
 
 ---
 
@@ -85,9 +93,13 @@ Brienne DeMott
 
 Email: brienne_demott@yahoo.com
 
+[LinkedIn:] (https://www.linkedin.com/in/brienne-demott-203b94215/)
+
 John P Weldon
 
 Email: johnpweldon01@gmail.com
+
+[LinkedIn:] (www.linkedin.com/in/john-weldon-333b0695)
 
 Elliot Lozano
 
