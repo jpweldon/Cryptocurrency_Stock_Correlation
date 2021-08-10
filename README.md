@@ -1,5 +1,4 @@
-# Coin The Tweet
-
+# Cryptocurrency Price Action versus Stock Market and Volatility Index
 Project 1 for Rice University's FinTech Boot Camp
 
 ---
@@ -8,35 +7,29 @@ Project 1 for Rice University's FinTech Boot Camp
 
 ### Project Description:
 
-The purpose of this project is to determine correlations between tweet frequency of key cryptocurrencies and the price of the cryptocurrencies to determine if there is a predictive behavior between the two. We will analyze data of three top cryptocurrencies traded based on market popularity; these are Bitcoin, Ethereum, and Litecoin. The time frame of our analysis will be two years from July of 2019 through July of 2021. We will source this data  from Twitter and Coinbase using APIs.
+The purpose of this project is to determine correlations between the market as exemplified by the S&P 500 using SSgA Active Trust - S&P 500 ETF TRUST ETF, the volatility index, and the price of the cryptocurrencies to determine if there is a predictive behavior. We will analyze data of three top cryptocurrencies traded based on market popularity; these are Bitcoin, Ethereum, and Litecoin. The time frame of our analysis will be two years from July of 2019 through July of 2021. We will source this data from Alpaca, Quandl, and Coinbase using APIs.
 
 ### Project Objective:
 
-We find the cryptocurrency market fascinating and want to analyze how social engagement for an asset on a social media platform like Twitter can affect or be affected by the assets' price action.
+We find the cryptocurrency market fascinating and want to analyze how the cyryptocurrency market correlates with the stock market and it's volatility. We could use this information to aid in determining trends that would be useful in designing an investement portfolio.
 
 ### Research Questions:
 
-Do price movements of Bitcoin correspond with movements in the quantity of tweets referencing Bitcoin? If so, do movements in the price of Bitcoin  pre-date, align, or post-date movements in the quantity of tweets referencing the cryptocurrency?
+Do price movements of Bitcoin correspond with movements in the stock market and volatility index? If so, do movements in the price of Bitcoin  pre-date, align, or post-date movements in the the stock market and volatility index?
 
-Do price movements of Ethereum correspond with movements in the quantity of tweets referencing Ethereum? If so, do movements in the price of Ethereum  pre-date, align, or post-date movements in the quantity of tweets referencing the cryptocurrency?
+Do price movements of Ethereum correspond with movements in the stock market and volatility index? If so, do movements in the price of Ethereum  pre-date, align, or post-date movements in the stock market and volatility index?
 
-Do price movements of Litecoin correspond with movements in the quantity of tweets referencing Litecoin? If so, do movements in the price of Litecoin  pre-date, align, or post-date movements in the quantity of tweets referencing the cryptocurrency?
+Do price movements of Litecoin correspond with movements in the stock market and volatility index? If so, do movements in the price of Litecoin  pre-date, align, or post-date movements in the stock market and volatility index?
 
-Based on the analysis of Bitcoin, Ethereum, and Litecoin, do movements in the price of the various cryptocurrencies in the market and their respective movements in the quantity of tweets referencing the cryptocurrencies correlate with each other?
+Based on the analysis of Bitcoin, Ethereum, and Litecoin, do movements in the price of the various cryptocurrencies in the market and the respective movements in the stock market and volatility index correlate with each other?
 
-### Datasets to be Used: 
+### Datasets to be Used:
 
 Bitcoin price data from 2019-07-01 to 2021-08-01 from Coinbase API.
-
 Ethereum price data from 2019-07-01 to 2021-08-01 from Coinbase API.
-
 Litecoin price data from 2019-07-01 to 2021-08-01 from Coinbase API.
-
-Bitcoin tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
-
-Ethereum tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
-
-Litecoin tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
+SPY SSgA Active Trust - S&P 500 ETF TRUST ETF data from 2019-07-01 to 2021-08-01 from Alpaca API.
+VIX Volatility Index data from 2019-07-01 to 2021-08-01 from Quandl API.
 
 ---
 
@@ -44,11 +37,23 @@ Litecoin tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
 
 This project leverages python 3.7 with the following modules:
 
+* [os]
+
+* [datetime](https://docs.python.org/3/library/datetime.html)
+
+* [hvplot]
+
+* [json]
+
+* [requests]
+
 * [pandas](https://github.com/pandas-dev/pandas) - or reading data into a DataFrame and analyzing data via statistics and plots.
 
-* [numpy](https://numpy.org) - For scientific computing.
+* [dotenv]
 
-* [pathlib](https://docs.python.org/3/library/pathlib.html) - For representing the file system path to a csv.
+* [cbpro]
+
+* [alpaca_trade_api](https://docs.python.org/3/library/pathlib.html) - For representing the file system path to a csv.
 
 * [matplotlib](https://matplotlib.org/stable/users/index.html) - For embedding plots in the application.
 
