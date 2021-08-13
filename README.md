@@ -1,5 +1,4 @@
-# Coin The Tweet
-
+# Cryptocurrency Price Action versus Stock Market and Volatility Index
 Project 1 for Rice University's FinTech Boot Camp
 
 ---
@@ -8,35 +7,33 @@ Project 1 for Rice University's FinTech Boot Camp
 
 ### Project Description:
 
-The purpose of this project is to determine correlations between tweet frequency of key cryptocurrencies and the price of the cryptocurrencies to determine if there is a predictive behavior between the two. We will analyze data of three top cryptocurrencies traded based on market popularity; these are Bitcoin, Ethereum, and Litecoin. The time frame of our analysis will be two years from July of 2019 through July of 2021. We will source this data  from Twitter and Coinbase using APIs.
+The purpose of this project is to determine correlations between the market as exemplified by the S&P 500 using SSgA Active Trust - S&P 500 ETF TRUST ETF (SPY), the volatility index (VIX), and the price of the cryptocurrencies to determine if there is a predictive behavior. We will analyze data of three top cryptocurrencies traded based on market popularity; these are Bitcoin, Ethereum, and Litecoin. The time frame of our analysis will be two years from July of 2019 through June of 2021. We will source this data from Alpaca, Quandl, and Coinbase using APIs.
 
 ### Project Objective:
 
-We find the cryptocurrency market fascinating and want to analyze how social engagement for an asset on a social media platform like Twitter can affect or be affected by the assets' price action.
+We find the cryptocurrency market fascinating and want to analyze how the cyryptocurrency market correlates with the stock market and it's volatility. We could use this information to aid in determining trends that would be useful in designing an investement portfolio.
 
 ### Research Questions:
 
-Do price movements of Bitcoin correspond with movements in the quantity of tweets referencing Bitcoin? If so, do movements in the price of Bitcoin  pre-date, align, or post-date movements in the quantity of tweets referencing the cryptocurrency?
+Do price movements of Bitcoin correspond with movements in the stock market and volatility index? If so, do movements in the price of Bitcoin  pre-date, align, or post-date movements in the the stock market and volatility index?
 
-Do price movements of Ethereum correspond with movements in the quantity of tweets referencing Ethereum? If so, do movements in the price of Ethereum  pre-date, align, or post-date movements in the quantity of tweets referencing the cryptocurrency?
+Do price movements of Ethereum correspond with movements in the stock market and volatility index? If so, do movements in the price of Ethereum  pre-date, align, or post-date movements in the stock market and volatility index?
 
-Do price movements of Litecoin correspond with movements in the quantity of tweets referencing Litecoin? If so, do movements in the price of Litecoin  pre-date, align, or post-date movements in the quantity of tweets referencing the cryptocurrency?
+Do price movements of Litecoin correspond with movements in the stock market and volatility index? If so, do movements in the price of Litecoin  pre-date, align, or post-date movements in the stock market and volatility index?
 
-Based on the analysis of Bitcoin, Ethereum, and Litecoin, do movements in the price of the various cryptocurrencies in the market and their respective movements in the quantity of tweets referencing the cryptocurrencies correlate with each other?
+Based on the analysis of Bitcoin, Ethereum, and Litecoin, do movements in the price of the various cryptocurrencies in the market and the respective movements in the stock market and volatility index correlate with each other?
 
-### Datasets to be Used: 
+### Datasets to be Used:
 
-Bitcoin price data from 2019-07-01 to 2021-08-01 from Coinbase API.
+Bitcoin price data from 2019-07-01 to 2021-07-01 using the Coinbase API.
 
-Ethereum price data from 2019-07-01 to 2021-08-01 from Coinbase API.
+Ethereum price data from 2019-07-01 to 2021-07-01 using the Coinbase API.
 
-Litecoin price data from 2019-07-01 to 2021-08-01 from Coinbase API.
+Litecoin price data from 2019-07-01 to 2021-07-01 using the Coinbase API.
 
-Bitcoin tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
+SPY SSgA Active Trust - S&P 500 ETF TRUST ETF data from 2019-07-01 to 2021-07-01 using the Alpaca API.
 
-Ethereum tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
-
-Litecoin tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
+VIX Volatility Index data from 2019-07-01 to 2021-07-01 using the Quandl API.
 
 ---
 
@@ -44,9 +41,25 @@ Litecoin tweet frequency data from 2019-07-01 to 2021-08-01 from Twitter API.
 
 This project leverages python 3.7 with the following modules:
 
-* [pandas](https://github.com/pandas-dev/pandas) - or reading data into a DataFrame and analyzing data via statistics and plots.
+* [os](https://docs.python.org/3/library/os.html) - For providing a portable way of using operating system dependent functionality.
 
-* [numpy](https://numpy.org) - For scientific computing.
+* [datetime](https://docs.python.org/3/library/datetime.html) - For supplying classes for manipulating dates and times.
+
+* [hvplot](https://hvplot.holoviz.org) - For plotting in various formats working with a wide array of datatypes in the PyData ecosystem.
+
+* [json](https://docs.python.org/3/library/json.html) - For data interchange.
+
+* [requests](https://docs.python-requests.org/en/master/index.html) - For sending HTTP/1.1 requests.
+
+* [pandas](https://github.com/pandas-dev/pandas) - For reading data into a DataFrame and analyzing data via statistics and plots.
+
+* [dotenv](https://pypi.org/project/python-dotenv/) - For reading key-value pairs from a .env file and setting them as environment variables.
+
+* [cbpro](https://pypi.org/project/cbpro/) - For collecting the necessary data on Bitcoin, Ethereum, and Litecoin.
+
+* [alpaca_trade_api](https://alpaca.markets/docs/api-documentation/) - For collecting the necessary data on the SSgA Active Trust - S&P 500 ETF TRUST ETF (SPY).
+
+* [csv](https://docs.python.org/3/library/csv.html) - For reading and writing tabular data in CSV (Comma Seperated Values) format.
 
 * [pathlib](https://docs.python.org/3/library/pathlib.html) - For representing the file system path to a csv.
 
