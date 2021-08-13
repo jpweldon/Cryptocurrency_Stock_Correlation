@@ -73,6 +73,10 @@ Before running the application first install the following dependencies:
 
 ```python
   pip install pandas
+  pip install hvplot
+  pip install python-dotenv
+  pip install cbpro
+  pip install alpaca-trade-api
   pip install mkdocs
 ```
 
@@ -82,19 +86,19 @@ Before running the application first install the following dependencies:
 
 To use the project analysis:
 
-Clone the Coin_The_Tweet repository from GitHub:
+Clone the Cryptocurrency_Stock_Correlation repository from GitHub:
 
-'git clone https://github.com/jpweldon/Coin_The_Tweet.git'
+'git clone https://github.com/jpweldon/Cryptocurrency_Stock_Correlation.git'
 
-Open the Resources folder and data_cleanup.ipynb file within.
+Open the Resources folder and then the Market_Data, Volatility_Data, and crypto_data files within.
 
 Examine the summary data, statistics, and analysis contained within the file.
 
-Open the Data_Exploration folder and data_exploration.ipynb file within.
+Open the Data_Exploration folder and data_exploration file within.
 
 Examine the statistics, charts, and analysis contained within the file.
 
-Open the Data_Analysis folder and data_analysis.ipynb file within.
+Open the Data_Analysis folder and data_analysis file within.
 
 Examine the summary data, statistics, charts, and analysis contained within the file. We have included analysis outlining the significance.
 
