@@ -90,17 +90,19 @@ Clone the Cryptocurrency_Stock_Correlation repository from GitHub:
 
 'git clone https://github.com/jpweldon/Cryptocurrency_Stock_Correlation.git'
 
-Open the Resources folder and then the Market_Data, Volatility_Data, and crypto_data files within.
+Add an environment file to the Resources folder with your Quandl and Alpaca keys.
 
-Examine the summary data, statistics, and analysis contained within the file.
+Open the Resources folder and then the Market_Data, Volatility_Data, and crypto_data Jupyter Lab notebooks within. Run the notebooks.
 
-Open the Data_Exploration folder and data_exploration file within.
+Examine the summary data, statistics, and analysis contained within the notebooks.
 
-Examine the statistics, charts, and analysis contained within the file.
+Open the Data_Exploration folder and data_exploration Jupyter Lab notebook within. Run the notebook.
 
-Open the Data_Analysis folder and data_analysis file within.
+Examine the statistics, charts, and analysis contained within the notebook.
 
-Examine the summary data, statistics, charts, and analysis contained within the file. We have included analysis outlining the significance.
+Open the Data_Analysis folder and data_analysis Jupyter Lab notebook within. Run the notebook.
+
+Examine the summary data, statistics, charts, and analysis contained within the notebook. We have included analysis outlining the significance.
 
 ---
 
