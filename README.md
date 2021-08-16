@@ -84,6 +84,10 @@ Before running the application first install the following dependencies:
 
 ## Usage
 
+View the presentation:
+
+(https://docs.google.com/presentation/d/e/2PACX-1vRulmInJZKnTwcHUtwUT1vCobOu6yH5zvYDOQ1joVddd4E3X8v_h4-5GnJZvcoYcQ/pub?start=true&loop=false&delayms=60000)
+
 To use the project analysis:
 
 Clone the Cryptocurrency_Stock_Correlation repository from GitHub:
